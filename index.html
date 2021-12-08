@@ -4,13 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/brand-logo-white.svg">
     <title>Saurabh Bhan | Indie Dev</title>
 </head>
 <body>
-    <h1>Hello, Welcome, My name is <span>Saurabh Bhan</span></h1>
-    <h2>I am Software Generalist and I work with various tech stack to devlop solutions for you.</h2>
-    <h3>Currently, I am learning web development and diving into web3 space as well.</h3>
-    <h3>Find more about my projects Below.</h3>
+
+    <section class='hero'>
+        <nav class='nav'>
+            <img class="brandlogo" src="/assets/brand-logo.svg" alt="">
+            <ul class="navlist">
+                <li class="navlink"><a class="navpill" href="/">Home</a></li>
+                <li class="navlink" ><a class="navpill"href="#work">Work</a></li>
+                <li class="navlink" ><a class="navpill"href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+        <div class='container'>
+            <h1><span class="hello">Hi,</span> My name is </h1><span class="name">Saurabh Bhan</span></h1>
+            <h2>I am Software Generalist and <br> I Curate experiences with Technology. </h2>
+
+        </div>
+    </section>
+    <section class="portfolio" id="work">
+        <h1>Here are some of the <span>Projects</span> I have worked upon.</h1>
+        <div class="project">
+            <div > <img class="project-pic"src="/assets/trivia.jpg" alt=""></div>
+            <div class="project-info">
+                <h2>BuddyMeter</h2>
+                <p>A CLI app that can quiz your friends on how well they know you. </p>
+                <a href="">Link to Github</a>
+            </div>
+        </div>
+        <div class="project">
+            <div > <img class="project-pic"src="/assets/trivia.jpg" alt=""></div>
+            <div class="project-info">
+                <h2>Trivia</h2>
+                <p>A CLI trivia game based on The big bang Theory and written with Javascript</p>
+                <a href="">Link to Github</a>
+            </div>    
+            
+        <div class="project">
+            <div > <img class="project-pic"src="/assets/trivia.jpg" alt=""></div>
+            <div class="project-info">
+                <h2>BuddyMeter</h2>
+                <p>A CLI app that can quiz your friends on how well they know you. </p>
+                <a href="">Link to Github</a>
+            </div>
+        </div>
     
+         
+        </div>
+    </section>
+    <section class='blogposts' id="blog">
+        <h1>One day I will find the right words,<br> until then read the <span>Blogs</span> below.</h1>
+        <a href="/"><h1>What is Neog.camp? and why should you care?</h1></a>
+        <a href="/"><h1>The Difference between var, let and const.</h1></a>
+        <a href="/"><h1>What is Temporary Deadzone in Javascript.</h1></a>
+    </section>
+    <footer class="footer">
+        <p class="footext">Made with ❤️ by Saurabh Bhan, follow me on socials <br>
+            <a href="https://twitter.com/Saurabh_kakran"  target="_blank" rel="noopener noreferrer">Twitter</a><a href="https://www.linkedin.com/in/saurabhan"  target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+
+    </footer>
 </body>
 </html>
