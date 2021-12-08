@@ -130,15 +130,18 @@
 }
 
 .project-pic{
+    display: block;
     height: 200px;
-    width: 1200px;
+    max-width: 1200px;
+    margin: auto;
     object-fit: cover;
 }
 
 .project-info{
     text-align: center;
+    margin: auto;
     height: 200px;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 .project-info > h2{
