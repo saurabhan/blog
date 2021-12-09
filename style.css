@@ -20,10 +20,6 @@
     font-family: "Averta";
 }
 
-.body{
- 
-}
-
 .nav{
     background-color: white 5%;
     max-width: 1200px;
@@ -130,7 +126,7 @@
 }
 
 .project-pic{
-    display: block;
+    display: none;
     height: 200px;
     max-width: 1200px;
     margin: auto;
