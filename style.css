@@ -250,5 +250,9 @@ a{
 }
 
 .content{
-    padding-bottom: 150px;
+    width: 800px;
+    margin: auto;
+    line-height: 2rem;
+    font-size: 1.2rem;
+
 }
